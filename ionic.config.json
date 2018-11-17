@@ -1,0 +1,7 @@
+{
+  "name": "tabs-sample",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
