@@ -1,11 +1,14 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      Camera
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-
+  <button ion-button (click)="getPhoto()">Get photo</button>
+  <p>
+    <img src="{{photo}}">
+  </p>
 </ion-content>
